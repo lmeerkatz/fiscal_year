@@ -1,3 +1,10 @@
+
+/*******************************************************************************************************
+* @author Laura Meerkatz
+* @date 07/12/2013
+* @description Test class for utility that calculates fiscal year for a given date
+*/
+
 @isTest
 private class TEST_UTIL_FiscalYear{
 	private static testMethod void testFiscalYearStartMonth() {
