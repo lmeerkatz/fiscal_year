@@ -4,7 +4,7 @@
 * @description Utility that calculates fiscal year for a given date based on organization's fiscal year start month and whether they name fiscal years by the starting or ending month
 */
 
-public with sharing class UTIL_FiscalYear {
+public without sharing class UTIL_FiscalYear {
 	public static integer getFiscalYear(Date theDate) {
 		Integer fy = theDate.year();
 		  
